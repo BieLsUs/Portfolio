@@ -1,0 +1,64 @@
+{
+  "name": "Gabriel A. Ribeiro",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Junior Developer",
+  "location": "Paraíba - BR",
+  "phone": "(83) 999709118",
+  "email": "gabrielaubino15@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": ""
+      },
+      {
+        "name": "Java",
+        "logo": ""
+      },
+      {
+        "name": "Angular",
+        "logo": ""
+      },
+      {
+        "name": "React",
+        "logo": ""
+      },
+      {
+        "name": "Mongodb",
+        "logo": ""
+      },
+      {
+        "name": "Postgresql",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Facilidade com tarefas práticas",
+      "Objetividade",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Criando page do HBOMAX",
+      "url": "https://github.com/BieLsUs/hbomax.git",
+      "github": true
+    },
+    {
+      "name": "Página inicial do instagram:",
+      "url": "https://github.com/BieLsUs/Recriando-Pagina-Inicial-do-Instagram.git",
+      "github": true
+    },
+    {
+      "name": "Pokedex com javaScript:",
+      "url": "https://github.com/BieLsUs/PokedexJS-PART2.git",
+      "github": true
+    }
+  ]
+}

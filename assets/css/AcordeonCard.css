@@ -1,0 +1,215 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --var-color-textGlobal: #fff;
+    --var-color-hover-btn: #55569E;
+
+    --var-font-text: "Open sans", sans-serif;
+}
+
+/* Section Acordeon */
+.acordeon {
+    margin: 1.75rem 0.5rem 2rem 0.5rem;
+}
+
+.acordeon.open .btnCard{
+    border: transparent;
+}
+.acordeon.open .btnCard::after{
+    transform: rotateX(180deg);
+}
+.acordeon.open .acordeon__info {
+    display: flex;
+}
+.acordeon.open,
+.acordeon__info {
+    background-color: var(--var-color-hover-btn);
+    border-radius: 20px;
+}
+/* DivBotãoCard -  */
+.btnCard {
+    width: 100%;
+    height: auto;
+    padding: 0.9rem 1.5rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: transparent;
+    border: solid 1px var(--var-color-textGlobal);
+    border-radius: 20px;
+    outline: none;
+
+    color: var(--var-color-textGlobal);
+    font-family: var(--var-font-text);
+    font-size: x-large;
+    font-weight: 700;
+
+    transition: .4s linear;
+}.btnCard:hover {
+    cursor: pointer;
+    background: var(--var-color-hover-btn);
+    border: solid 1px var(--var-color-hover-btn);
+}.btnCard::after {
+    content: "";
+    margin: 0.2rem 0.65rem 0 0;
+    padding: 0.5rem 0.7rem;
+
+    display: flex;
+    align-items: center;
+
+    background: url(../img/svg/acordeon/seta.svg) no-repeat;
+
+    transition: all .2s linear;
+}
+/* Div - Skills */
+.acordeon__info {
+    padding: 1.5rem 0;
+    gap: 2rem;
+
+    position: relative;
+    top: -1rem;
+    display: none;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-around;
+}
+.info__skillPersonal, .info__skillProfi{ /*A class "info__skilProfi" corresponde a todas segundas divisões do acordeon*/ /*a primeira class se remete a class do primeiro acordeon*/
+    color: var(--var-color-textGlobal);
+    font-family: var(--var-font-text);
+    font-weight: 700;
+}
+/* List-ImgSkillsProfissional - acordeon-1*/
+.info__skillProfi { /*Está class também se referece aos acordeon-2-3-4*/
+    gap: 0.5rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.skillProfi__list {
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(2, 70px);
+    align-items: center;
+    justify-items: center;
+
+    list-style: none;
+}.skillProfi__list li img {
+    width: 35px;
+}
+
+/* List-SkillsPersonal */
+.info__skillPersonal {
+    gap: 1rem;
+
+    display: inherit;
+    flex-flow: column nowrap;
+}
+.skillPerson {
+    gap: 0.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+
+    text-indent: -5px;
+}
+.skillPerson li p{
+    font-family: var(--var-font-text);
+    font-size: small;
+    font-weight: 100;
+}
+
+/* List-Skill-Idiom - acordeon-2* -- conteúdo do acordeon-2*/
+#AcordeonIdiom {
+    margin: 1rem;
+
+    justify-content: center;
+}
+.skillProfi_Idiom{
+    gap: 2.5rem;
+    display: inherit;
+
+    list-style: none;
+}
+.skillProfi_Idiom li::before{
+    content: "✓";
+    margin: 0 0.55rem 0 0;
+}
+/* List-aprendizado - acordeon-3* -- conteúdo do acordeon-3*/
+#AcordeonLearning {
+    flex-flow: column nowrap;
+    align-items: center;
+
+    color: var(--var-color-textGlobal);
+    font-family: var(--var-font-text);
+}
+.info__learning {
+    margin-top: 0.75rem;
+    gap: 1.1rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.learning {
+    gap: 1.75rem;
+
+    display: inherit;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+}
+.learning li img { /*Imagens da divisão "Misnhas conquistas"*/
+    width: 35px;
+}
+/* Sgunda divisão do acordeon-3  - infoLearn*/
+.learn__info {
+    padding: 0 0 0 0.75rem;
+    gap: 1rem;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Portifólio - acordeon 4 - conteúdo da divisão do acordeon 4 */
+#acordeonPortfolio {
+    padding: 2rem;
+    flex-flow: column nowrap;
+
+    color: var(--var-color-textGlobal);
+    font-family: var(--var-font-text);
+}
+.info__portfolio{
+    width: 100%;
+    gap: 0.5rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.info__portfolio::before {
+    content: url(/assets/img/svg/acordeon/skils/learn/portfólio/gitIMG.svg);
+}
+.portfolio__link{
+    width: 100%;
+
+    display: inherit;
+    flex-flow: column nowrap;
+}
+.portfolio__link a{
+    color: var(--var-color-textGlobal);
+    text-decoration: none;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}.portfolio__link a:hover{
+    text-decoration: underline;
+}
