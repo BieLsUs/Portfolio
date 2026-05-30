@@ -1,6 +1,6 @@
 function profileInfoUpdate(infoProfileData){
     const photo = document.getElementById('perfil.photo')
-    photo.photo = infoProfileData.photo
+    photo.src = infoProfileData.photo
 }
 
 
