@@ -1,0 +1,123 @@
+@media screen and (min-width: 550px) {
+    /* Informações do perfil */
+    .infomation__title h2 {
+       white-space: pre-line;
+    }
+    .infomation__profile {
+        align-items:start;
+    }
+}
+@media screen and (min-width: 750px) {
+/* Header - cabeçalho do conteúdo */
+    .content-header {
+        position: relative;
+        justify-content: space-evenly;
+    }
+    .content-header picture img {
+        width: 170px;
+        height: auto;
+    }
+    /* Informações do perfil */
+    .infomation__title h2 {
+       white-space: pre-line;
+    }
+    .infomation__profile {
+        align-items:start;
+    }
+
+    /* Main-principal - Conteúdo-Protifólio */
+    #conteudo {
+        width: 85%;
+    }
+
+    /* Acordeons-Sections */
+    /* DivAcordeon - Skills */
+    .acordeon__info {
+        padding: 1rem 0;
+        gap: 3rem;
+    }
+    /* List-ImgSkillsProfissional */
+    .skillProfi__list {
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: repeat(2, 80px);
+    }.skillProfi__list li img {width: 40px;}
+
+/* List-Skill-Idiom - acordeon-2* -- conteúdo do acordeon-2*/
+    #AcordeonIdiom {
+        margin: 1rem 2rem;
+        justify-content: start;
+    }
+    .skillProfi_Idiom{
+        gap: 3rem;
+    }
+    .skillProfi_Idiom li::before{
+        content: "✓";
+        margin: 0 0.6rem 0 0;
+    }
+
+/* List-aprendizado - acordeon-3* -- conteúdo do acordeon-3*/
+    .info__learning {
+        margin-top: 0;
+        gap: 1.2rem;
+    }
+    .learning {
+        gap: 1.5rem;
+    }
+    .learning li img { /*Imagens da divisão "Misnhas conquistas"*/
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    #conteudo {
+        width: 60%;
+    }
+
+    /* TrêsLinhas - Header */
+    .three-line {
+        display: flex;
+        position: absolute;
+        left: 92%;
+        top: -5%;
+    }
+    .three-line::before {
+        content: url(/assets/img/svg/Menu.svg);
+    }
+
+/* List-aprendizado - acordeon-3* -- conteúdo do acordeon-3*/
+    #AcordeonLearning {
+        flex-flow: row wrap;
+    }
+    .learning li img { /*Imagens da divisão "Misnhas conquistas"*/
+        width: 45px;
+    }
+    /* Sgunda divisão do acordeon-3  - infoLearn*/
+    .learn__info {
+        width: 90%;
+        padding: 0;
+    }
+} 
+@media screen and (min-width: 1250px) {
+    /* TrêsLinhas - Header */
+    .three-line::before {
+        content: url(/assets/img/svg/Menu.svg);
+    }
+
+/* Main-principal - Conteúdo-Protifólio */
+    #conteudo {
+        width: 60%;
+    }
+
+    /* Div - Skills - List-ImgSkills */
+    .skillProfi__list li img {width: 50px;}
+
+/* List-aprendizado - acordeon-3* -- conteúdo do acordeon-3*/
+    .learning li img { /*Imagens da divisão "Misnhas conquistas"*/
+        width: 65px;
+    }
+    /* Sgunda divisão do acordeon-3  - infoLearn*/
+    .learn__info {
+        width: 95%;
+        padding: 0;
+    }
+}
