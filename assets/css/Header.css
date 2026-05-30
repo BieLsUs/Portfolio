@@ -46,6 +46,7 @@
     flex-flow: column nowrap;
     align-items: center;
 }
+/* Estruturando informações de perfil */
 .funcao, .endereco, .contato, .email{
     gap: 0.35rem;
     display: inherit;
@@ -56,6 +57,11 @@
     font-weight: 200;
 
 }.infomation__profile span img {width: 15px;}
+.contato a, .email a {
+    color: var(--var-Color-Text);
+    text-decoration: none;
+}.contato a:hover, .email a:hover{text-decoration: underline;}
+
 .three-line {
     display: none;
 }
