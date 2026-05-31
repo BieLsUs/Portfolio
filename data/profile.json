@@ -8,7 +8,7 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
+        "name": "JavaScript",
         "logo": ""
       },
       {
@@ -16,19 +16,19 @@
         "logo": ""
       },
       {
-        "name": "Angular",
+        "name": "HTML",
         "logo": ""
       },
       {
-        "name": "React",
+        "name": "CSS",
         "logo": ""
       },
       {
-        "name": "Mongodb",
+        "name": "Python",
         "logo": ""
       },
       {
-        "name": "Postgresql",
+        "name": "SQlite",
         "logo": ""
       }
     ],
