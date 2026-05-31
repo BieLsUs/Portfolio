@@ -5,44 +5,84 @@
   "location": "Paraíba - BR",
   "phone": "(83) 9 9970-9118",
   "email": "gabrielaubino15@gmail.com",
+
   "skills": {
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/JS.svg"
       },
       {
         "name": "Java",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/Java.svg"
       },
       {
         "name": "HTML",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/Html.svg"
       },
       {
         "name": "CSS",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/CSS.svg"
       },
       {
         "name": "Python",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/Python.svg"
       },
       {
         "name": "SQlite",
-        "logo": ""
+        "logo": "assets/img/svg/acordeon/skils/SQlite.svg"
       }
     ],
     "softSkills": [
       "Facilidade com tarefas práticas",
       "Objetividade",
       "Trabalho em equipe",
-      "Flexibilidade",
       "Organização"
     ]
   },
+
+  "learning": {
+    "achievements":[
+      {
+        "name": "JavaScript",
+        "logo": "assets/img/svg/acordeon/skils/JS.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "assets/img/svg/acordeon/skils/Java.svg"
+      },
+      {
+        "name": "HTML",
+        "logo": "assets/img/svg/acordeon/skils/Html.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "assets/img/svg/acordeon/skils/CSS.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "assets/img/svg/acordeon/skils/Python.svg"
+      },
+      {
+        "name": "SQlite",
+        "logo": "assets/img/svg/acordeon/skils/SQlite.svg"
+      }
+    ],
+    "Education": [
+      {
+        "institucion": "DIO.ME",
+        "period": "2023 - present"
+      },
+      {
+        "institucion": "UNOPAR/ANHANGUERA - ADS",
+        "period": "2025 - present"
+      }
+    ]
+  },
+
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)"
+    "Português(Brasil)",
+    "Inglês(intermediário)"
   ],
   "portfolio": [
     {
