@@ -45,27 +45,27 @@
     "achievements":[
       {
         "name": "JavaScript",
-        "logo": "assets/img/svg/acordeon/skils/JS.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-JS.svg"
       },
       {
         "name": "Java",
-        "logo": "assets/img/svg/acordeon/skils/Java.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-Java.svg"
       },
       {
         "name": "HTML",
-        "logo": "assets/img/svg/acordeon/skils/Html.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-html.svg"
       },
       {
         "name": "CSS",
-        "logo": "assets/img/svg/acordeon/skils/CSS.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-css.svg"
       },
       {
         "name": "Python",
-        "logo": "assets/img/svg/acordeon/skils/Python.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-python.svg"
       },
       {
         "name": "SQlite",
-        "logo": "assets/img/svg/acordeon/skils/SQlite.svg"
+        "logo": "assets/img/svg/acordeon/skils/learn/C-sqlite.svg"
       }
     ],
     "Education": [
@@ -84,6 +84,7 @@
     "Português(Brasil)",
     "Inglês(intermediário)"
   ],
+  
   "portfolio": [
     {
       "name": "Criando page do HBOMAX",
