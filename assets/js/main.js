@@ -1,6 +1,6 @@
 function profileInfoUpdate(infoProfileData){
     // 
-    const photo = document.getElementById('perfil.photo')
+    const photo = document.getElementById('profile.photo')
     photo.src = infoProfileData.photo
     // 
     const name = document.getElementById('profile.name')
@@ -22,10 +22,26 @@ function profileInfoUpdate(infoProfileData){
     email.href = `mailto:${infoProfileData.email}`
 
 }
+// 
+function profileSkillsUpdate(infoProfileData){
+    const softSkills = document.getElementById("profile.softSkills")
+    softSkills.innerHTML = infoProfileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+//
+function profileHardSkillsUpdate(infoProfileData){
+    const hardSkills = document.getElementById("profile.hardSkills")
+
+    hardSkills.innerHTML = infoProfileData.skills.hardSkills.map(hard => 
+        `<li>
+            <img src="${hard.logo}" alt="${hard.name}">
+        </li>`).join('')
+}
 
 
 // Função que imprime no console as informações da API;
 (async () => {
     const infoProfileData = await fetchData();
     profileInfoUpdate(infoProfileData);
+    profileSkillsUpdate(infoProfileData);
+    profileHardSkillsUpdate(infoProfileData);
 })()

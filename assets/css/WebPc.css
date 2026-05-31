@@ -30,11 +30,19 @@
         width: 85%;
     }
 
-    /* Acordeons-Sections */
-    /* DivAcordeon - Skills */
+    /* Acordeons-Sections --- Acordeon 1 - Skills */
     .acordeon__info {
         padding: 1rem 0;
         gap: 3rem;
+    }
+    /* HardSkills */
+    .skillProfi__list{
+        gap: 0.35rem;
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        grid-template-rows: repeat(2, 70px);
+        align-items: center;
+        justify-items: center;
     }
     /* List-ImgSkillsProfissional */
     .skillProfi__list {
